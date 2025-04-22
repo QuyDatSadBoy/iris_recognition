@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class IrisRecognitionApplication {
 
     public static void main(String[] args) {
+        System.out.println("IrisRecognitionApplication");
         SpringApplication.run(IrisRecognitionApplication.class, args);
     }
+
 
 }

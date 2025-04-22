@@ -15,8 +15,8 @@
     <description>Iris recognition using YOLO model in Spring Boot</description>
 
     <properties>
-        <java.version>11</java.version>
-        <djl.version>0.22.1</djl.version>
+        <java.version>17</java.version>
+        <djl.version>0.23.0</djl.version>
     </properties>
 
     <dependencies>
@@ -69,10 +69,11 @@
             <version>2.11.0</version>
         </dependency>
 
-        <!-- Lombok -->
+        <!-- Lombok - CẬP NHẬT PHIÊN BẢN -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <version>1.18.30</version>
             <optional>true</optional>
         </dependency>
 
@@ -107,6 +108,17 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
+                </configuration>
+            </plugin>
+
+            <!-- Cấu hình Maven Compiler Plugin đơn giản -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.10.1</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
                 </configuration>
             </plugin>
         </plugins>

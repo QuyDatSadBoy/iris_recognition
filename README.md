@@ -143,7 +143,7 @@ Dự án này được phát hành dưới giấy phép MIT. Xem file `LICENSE` 
 
 ## 📞 Liên Hệ
 
-- **Email**: your-email@example.com
+- **Email**: dattq.b21cn222@stu.ptit.edu.vn
 - **GitHub**: [your-github-profile]
 - **LinkedIn**: [your-linkedin-profile]
 

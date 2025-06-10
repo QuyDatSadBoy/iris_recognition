@@ -1,10 +1,15 @@
+# ===========================================
+# GITIGNORE CHO DỰ ÁN NHẬN DIỆN MỐNG MẮT
+# ===========================================
+
+# Maven build files / File build Maven
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+### Spring Tools Suite ###
 .apt_generated
 .classpath
 .factorypath
@@ -31,3 +36,182 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# ===========================================
+# JAVA SPECIFIC / ĐẶC THÙ JAVA
+# ===========================================
+
+# Compiled class files / File class đã compile
+*.class
+
+# Log files / File log
+*.log
+logs/
+*.log.*
+
+# BlueJ files / File BlueJ
+*.ctxt
+
+# Mobile Tools for Java (J2ME) / Công cụ Mobile cho Java
+.mtj.tmp/
+
+# Package Files / File package
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machine crash logs / Log crash máy ảo
+hs_err_pid*
+replay_pid*
+
+# ===========================================
+# AI/ML & DJL SPECIFIC / ĐẶC THÙ AI/ML & DJL
+# ===========================================
+
+# Model files / File mô hình
+*.pt
+*.pth
+*.onnx
+*.pb
+models/
+model/
+*.model
+*.bin
+
+# Training data / Dữ liệu training
+data/
+datasets/
+*.csv
+*.xlsx
+*.h5
+
+# Jupyter Notebook checkpoints / Checkpoint Jupyter Notebook
+.ipynb_checkpoints/
+
+# PyTorch cache / Cache PyTorch
+.pytorch/
+
+# DJL cache / Cache DJL
+.djl/
+
+# ===========================================
+# OPERATING SYSTEM / HỆ ĐIỀU HÀNH
+# ===========================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===========================================
+# TEMPORARY FILES / FILE TẠM THỜI
+# ===========================================
+
+# Temporary folders / Thư mục tạm
+tmp/
+temp/
+cache/
+
+# Backup files / File backup
+*.bak
+*.tmp
+*.swp
+*~
+
+# ===========================================
+# SECURITY & SENSITIVE DATA / BẢO MẬT
+# ===========================================
+
+# Environment variables / Biến môi trường
+.env
+.env.local
+.env.*.local
+
+# API Keys / Khóa API
+api_keys.txt
+secrets.txt
+credentials.json
+
+# Database files / File database
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration files with sensitive data / File cấu hình có dữ liệu nhạy cảm
+application-local.properties
+application-dev.properties
+application-prod.properties
+
+# ===========================================
+# UPLOADS & USER DATA / UPLOAD & DỮ LIỆU NGƯỜI DÙNG
+# ===========================================
+
+# Uploaded images / Hình ảnh được upload
+uploads/
+images/
+pictures/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+
+# User generated content / Nội dung do người dùng tạo
+user_data/
+results/
+output/
+
+# ===========================================
+# DOCUMENTATION / TÀI LIỆU
+# ===========================================
+
+# Generated documentation / Tài liệu được tạo tự động
+docs/generated/
+javadoc/
+
+# ===========================================
+# MISC / KHÁC
+# ===========================================
+
+# Node modules (if using any frontend tools) / Node modules (nếu dùng công cụ frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+Dockerfile.local
+docker-compose.override.yml
+
+# Testing / Test
+coverage/
+test-results/
+*.lcov
